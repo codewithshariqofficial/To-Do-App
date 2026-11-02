@@ -7,10 +7,10 @@ export class TodoManager {
         this.categoryFilter = 'all';
     }
 
-    addTodo(text, category) {
+    addTodo(text, category = 'Other') {
         const newTodo = {
             id: Date.now().toString(),
-            text,
+            text: text.trim(),
             category,
             completed: false,
             createdAt: new Date().toISOString()

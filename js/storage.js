@@ -12,7 +12,10 @@ export const storage = {
     load() {
         try {
             const data = localStorage.getItem(STORAGE_KEY);
-            return data ? JSON.parse(data) : [];
+            if (!data) return [];
+            const todos = JSON.parse(data);
+            // Make sure stored data is actually a list of tasks
+            return Array.isArray(todos) ? todos : [];
         } catch (error) {
             console.error('Error loading from localStorage:', error);
             return [];
