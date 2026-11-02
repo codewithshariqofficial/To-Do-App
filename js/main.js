@@ -60,6 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
             todoManager.addTodo(text, category);
             todoInput.value = '';
             updateUI();
+            todoInput.focus();
         }
     });
 

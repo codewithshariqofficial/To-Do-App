@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advanced To-Do App</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,7 +17,7 @@
         <section class="input-section">
             <form id="todo-form">
                 <div class="input-group">
-                    <input type="text" id="todo-input" placeholder="What needs to be done?" required>
+                    <input type="text" id="todo-input" placeholder="What needs to be done?" aria-label="New task" maxlength="200" required>
                     <select id="category-select">
                         <option value="Personal">Personal</option>
                         <option value="Work">Work</option>
@@ -44,7 +45,7 @@
                 <!-- Todo items will be injected here -->
             </ul>
             <div id="empty-state" class="hidden">
-                <p>No tasks found. Start by adding one!</p>
+                <p>📝 No tasks found. Start by adding one!</p>
             </div>
         </main>
 

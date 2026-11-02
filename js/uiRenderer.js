@@ -19,10 +19,10 @@ export const uiRenderer = {
         li.dataset.id = todo.id;
 
         li.innerHTML = `
-            <input type="checkbox" class="todo-checkbox" ${todo.completed ? 'checked' : ''}>
+            <input type="checkbox" class="todo-checkbox" ${todo.completed ? 'checked' : ''} aria-label="${todo.completed ? 'Mark task as active' : 'Mark task as completed'}">
             <span class="todo-category">${todo.category}</span>
             <span class="todo-text">${this.escapeHTML(todo.text)}</span>
-            <button class="delete-btn" title="Delete task">Delete</button>
+            <button class="delete-btn" title="Delete task" aria-label="Delete task">Delete</button>
         `;
 
         const checkbox = li.querySelector('.todo-checkbox');
