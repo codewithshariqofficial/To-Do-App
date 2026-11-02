@@ -4,7 +4,7 @@ A clean, modern and responsive **To-Do application** built with **vanilla HTML, 
 
 Add tasks, organize them by category, filter by status, and never lose your list: everything is saved automatically in your browser's `localStorage`.
 
-> **Want a live demo?** Enable **GitHub Pages** → *Settings → Pages → Branch: `main` / root*. Your app will be live at `https://codewithshariqofficial.github.io/To-Do-App/` (add the link here once it's published).
+🔗 **Live Demo:** [codewithshariqofficial.github.io/To-Do-App](https://codewithshariqofficial.github.io/To-Do-App/)
 
 ---
 
@@ -27,6 +27,8 @@ Add tasks, organize them by category, filter by status, and never lose your list
 ---
 
 ## 🖥️ Demo
+
+🔗 **[https://codewithshariqofficial.github.io/To-Do-App/](https://codewithshariqofficial.github.io/To-Do-App/)**
 
 > Add a task → it instantly appears in the list and is saved to your browser.
 > Reload the page → your tasks are still there.
