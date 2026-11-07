@@ -1,12 +1,8 @@
-# 📝 To-Do App
+# Advanced To-Do App
 
-A simple and responsive To-Do app made with **HTML, CSS and JavaScript**.
+A simple and responsive To-Do app made with HTML, CSS, and JavaScript.
 
-🔗 **Live Demo:** https://codewithshariqofficial.github.io/To-Do-App/
-
----
-
-## ✨ Features
+## Features
 
 - Add new tasks
 - Choose a category (Personal, Work, Shopping, Other)
@@ -18,53 +14,40 @@ A simple and responsive To-Do app made with **HTML, CSS and JavaScript**.
 - Tasks are saved in `localStorage` (data stays after refresh)
 - Works on mobile and desktop
 
----
+## Tech Stack
 
-## 🚀 How to Run
+- HTML5
+- CSS3
+- Vanilla JavaScript
 
-1. Download or clone this repo:
-
-```bash
-git clone https://github.com/codewithshariqofficial/To-Do-App.git
-```
-
-2. Open `index.html` in your browser.
-
-That's it. No install, no setup. 🙂
-
-Or just use the live demo: https://codewithshariqofficial.github.io/To-Do-App/
-
----
-
-## 📁 Files
+## Project Structure
 
 ```
 To-Do-App/
-├── index.html
-├── style.css
+├── index.html            # Markup
+├── style.css             # Styling
 └── js/
-    ├── main.js
-    ├── todoManager.js
-    ├── uiRenderer.js
-    └── storage.js
+    ├── main.js           # Entry point
+    ├── storage.js        # localStorage handling
+    ├── todoManager.js    # Task logic
+    └── uiRenderer.js     # UI rendering
 ```
 
----
+## Getting Started
 
-## 🛠️ Built With
+1. Clone or download this repository.
+2. Open `index.html` in any modern browser.
+3. Add, complete, filter, and delete tasks - they persist on refresh.
 
-- HTML
-- CSS
-- JavaScript
+## Live Demo
 
----
+- GitHub Pages: https://codewithshariqofficial.github.io/To-Do-App/
+- Vercel: https://to-do-chi-five-76.vercel.app/
 
-## 👨‍💻 Author
+## License
 
-**Shariq Shahid**
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- GitHub: [@codewithshariqofficial](https://github.com/codewithshariqofficial)
+## Author
 
----
-
-⭐ If you like this project, give it a star!
+**Code With Shariq Official** - [GitHub](https://github.com/codewithshariqofficial)
